@@ -1,0 +1,6 @@
+ns=input("Enter number of seconds:")
+ns_int=int(ns)
+nm=ns_int//60
+rs=ns_int%60
+print("minutes:",nm)
+print("seconds:",rs)
